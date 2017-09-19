@@ -10,7 +10,6 @@ namespace WindowsFormsApp10
 {
     public partial class Form1 : Form
     {
-
         private void MakeDataTableAndDisplay(string MyFilename)
         {
             string fileName = MyFilename;
