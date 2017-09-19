@@ -65,6 +65,8 @@ namespace WindowsFormsApp10
             MyLabelPosition.Visible =false;
             MyProgressbar.Visible = false;
 
+            MyPictureBox_2.Location = new Point(0, 0);
+
             MyPictureBox_2.Height = this.Height;
             MyPictureBox_2.Width = this.Width;
         }
@@ -247,7 +249,7 @@ namespace WindowsFormsApp10
             {
                 if (MyPictureBox_2.Width < 4000)
                 {
-                    //MyPictureBox_2.Location = new Point(MyPictureBox.Location.X - (int)(MyPictureBox_2.Location.X * 0.075), MyPictureBox_2.Location.Y - (int)(MyPictureBox_2.Location.Y * 0.075));
+                    //MyPictureBox_2.Location = new Point(MyPictureBox_2.Location.X - (int)(MyPictureBox_2.Width * 0.05), MyPictureBox_2.Location.Y - (int)(MyPictureBox_2.Height * 0.05));
 
                     MyPictureBox_2.Width = (int)(MyPictureBox_2.Width * 1.1);
                     MyPictureBox_2.Height = (int)(MyPictureBox_2.Width * 1.1);
@@ -257,7 +259,7 @@ namespace WindowsFormsApp10
             {
                 if (MyPictureBox_2.Width > 100)
                 {
-                    //MyPictureBox_2.Location = new Point(MyPictureBox.Location.X + (int)(MyPictureBox_2.Location.X * 0.075), MyPictureBox_2.Location.Y + (int)(MyPictureBox_2.Location.Y * 0.075));
+                    //MyPictureBox_2.Location = new Point(MyPictureBox_2.Location.X + (int)(MyPictureBox_2.Width * 0.05), MyPictureBox_2.Location.Y + (int)(MyPictureBox_2.Height * 0.05));
 
                     MyPictureBox_2.Width = (int)(MyPictureBox_2.Width * 0.9);
                     MyPictureBox_2.Height = (int)(MyPictureBox_2.Width * 0.9);
