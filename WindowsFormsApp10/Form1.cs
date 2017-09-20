@@ -168,6 +168,16 @@ namespace WindowsFormsApp10
                         else { Console.Beep(); }                    
                         break;
 
+                    case Keys.NumPad6:
+                        if (score != null)
+                        {
+                            score[MyPosition] = 6;
+                            MyLabelScore.Text = score[MyPosition].ToString();
+                            nextImage();
+                        }
+                        else { Console.Beep(); }
+                        break;
+
                     case Keys.O:
                         if (MyFolderBrowserDialog.ShowDialog() == DialogResult.OK)
                         {
