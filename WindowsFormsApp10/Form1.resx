@@ -129,7 +129,7 @@
 	W		write results to file
 	left		back one image
 	right		forward one image
-	shift + left		back 100 images
+	shift + left	back 100 images
 	shift + right	forward 100 images</value>
   </data>
   <metadata name="MyFolderBrowserDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">

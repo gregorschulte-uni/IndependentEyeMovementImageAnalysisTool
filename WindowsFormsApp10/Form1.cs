@@ -69,6 +69,20 @@ namespace WindowsFormsApp10
 
             MyPictureBox_2.Height = this.Height;
             MyPictureBox_2.Width = this.Width;
+
+            MyTextBox.Text =    "\r\n\talt + F4 / ESC\tquit program\r\n" +
+                                "\tH\t\tdisplay this help\r\n" +
+                                "\tJ\t\tshow filename and position\r\n" +
+                                "\tO\t\topen folder\r\n" +
+                                "\tmouse drag\tmove image\r\n" +
+                                "\tmouse wheel\tzoom\r\n" +
+                                "\tF\t\treset view\r\n" +
+                                "\tW\t\twrite results to file\r\n" +
+                                "\tleft\t\tback one image\r\n" +
+                                "\tright\t\tforward one image\r\n" +
+                                "\tshift + left\t\tback 100 images\r\n" +
+                                "\tshift + right\tforward 100 images\r\n" +
+                                "\t1/2/3/4/5/6\tscore images (on Numpad)";
         }
 
         int MyMaximum = 0;
@@ -423,5 +437,9 @@ namespace WindowsFormsApp10
             }
         }
 
+        private void MyTextBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
