@@ -50,12 +50,12 @@
             this.MyTextBox.Enabled = false;
             this.MyTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyTextBox.ForeColor = System.Drawing.Color.White;
-            this.MyTextBox.Location = new System.Drawing.Point(105, 31);
-            this.MyTextBox.Margin = new System.Windows.Forms.Padding(150, 154, 150, 154);
+            this.MyTextBox.Location = new System.Drawing.Point(93, 25);
+            this.MyTextBox.Margin = new System.Windows.Forms.Padding(133, 123, 133, 123);
             this.MyTextBox.Multiline = true;
             this.MyTextBox.Name = "MyTextBox";
             this.MyTextBox.ReadOnly = true;
-            this.MyTextBox.Size = new System.Drawing.Size(708, 378);
+            this.MyTextBox.Size = new System.Drawing.Size(630, 303);
             this.MyTextBox.TabIndex = 1;
             this.MyTextBox.Text = resources.GetString("MyTextBox.Text");
             this.MyTextBox.TextChanged += new System.EventHandler(this.MyTextBox_TextChanged);
@@ -64,10 +64,10 @@
             // 
             this.MyProgressbar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.MyProgressbar.Location = new System.Drawing.Point(18, 669);
-            this.MyProgressbar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MyProgressbar.Location = new System.Drawing.Point(16, 535);
+            this.MyProgressbar.Margin = new System.Windows.Forms.Padding(4);
             this.MyProgressbar.Name = "MyProgressbar";
-            this.MyProgressbar.Size = new System.Drawing.Size(936, 35);
+            this.MyProgressbar.Size = new System.Drawing.Size(832, 28);
             this.MyProgressbar.Step = 100;
             this.MyProgressbar.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.MyProgressbar.TabIndex = 1;
@@ -77,9 +77,9 @@
             this.MyPictureBox_2.BackColor = System.Drawing.Color.Black;
             this.MyPictureBox_2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.MyPictureBox_2.Location = new System.Drawing.Point(-2, 0);
-            this.MyPictureBox_2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MyPictureBox_2.Margin = new System.Windows.Forms.Padding(4);
             this.MyPictureBox_2.Name = "MyPictureBox_2";
-            this.MyPictureBox_2.Size = new System.Drawing.Size(879, 734);
+            this.MyPictureBox_2.Size = new System.Drawing.Size(781, 587);
             this.MyPictureBox_2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.MyPictureBox_2.TabIndex = 4;
             this.MyPictureBox_2.TabStop = false;
@@ -94,10 +94,10 @@
             this.MyLabelScore.Dock = System.Windows.Forms.DockStyle.Right;
             this.MyLabelScore.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyLabelScore.ForeColor = System.Drawing.Color.Yellow;
-            this.MyLabelScore.Location = new System.Drawing.Point(888, 0);
+            this.MyLabelScore.Location = new System.Drawing.Point(793, 0);
             this.MyLabelScore.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MyLabelScore.Name = "MyLabelScore";
-            this.MyLabelScore.Size = new System.Drawing.Size(84, 82);
+            this.MyLabelScore.Size = new System.Drawing.Size(71, 69);
             this.MyLabelScore.TabIndex = 5;
             this.MyLabelScore.Text = "X";
             this.MyLabelScore.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -109,10 +109,10 @@
             this.MyLabelFilename.BackColor = System.Drawing.Color.Transparent;
             this.MyLabelFilename.Font = new System.Drawing.Font("Courier New", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyLabelFilename.ForeColor = System.Drawing.Color.Yellow;
-            this.MyLabelFilename.Location = new System.Drawing.Point(18, 614);
+            this.MyLabelFilename.Location = new System.Drawing.Point(16, 491);
             this.MyLabelFilename.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MyLabelFilename.Name = "MyLabelFilename";
-            this.MyLabelFilename.Size = new System.Drawing.Size(334, 50);
+            this.MyLabelFilename.Size = new System.Drawing.Size(282, 41);
             this.MyLabelFilename.TabIndex = 6;
             this.MyLabelFilename.Text = "##filename##";
             this.MyLabelFilename.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -124,10 +124,10 @@
             this.MyLabelPosition.BackColor = System.Drawing.Color.Transparent;
             this.MyLabelPosition.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyLabelPosition.ForeColor = System.Drawing.Color.Yellow;
-            this.MyLabelPosition.Location = new System.Drawing.Point(18, 563);
+            this.MyLabelPosition.Location = new System.Drawing.Point(16, 450);
             this.MyLabelPosition.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MyLabelPosition.Name = "MyLabelPosition";
-            this.MyLabelPosition.Size = new System.Drawing.Size(281, 52);
+            this.MyLabelPosition.Size = new System.Drawing.Size(243, 42);
             this.MyLabelPosition.TabIndex = 7;
             this.MyLabelPosition.Text = "##position##";
             this.MyLabelPosition.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -140,20 +140,20 @@
             this.MyLabelMaximum.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MyLabelMaximum.ForeColor = System.Drawing.Color.Yellow;
             this.MyLabelMaximum.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.MyLabelMaximum.Location = new System.Drawing.Point(626, 563);
+            this.MyLabelMaximum.Location = new System.Drawing.Point(556, 450);
             this.MyLabelMaximum.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.MyLabelMaximum.Name = "MyLabelMaximum";
-            this.MyLabelMaximum.Size = new System.Drawing.Size(321, 52);
+            this.MyLabelMaximum.Size = new System.Drawing.Size(272, 42);
             this.MyLabelMaximum.TabIndex = 8;
             this.MyLabelMaximum.Text = "##maximum##";
             this.MyLabelMaximum.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(972, 723);
+            this.ClientSize = new System.Drawing.Size(864, 578);
             this.Controls.Add(this.MyLabelMaximum);
             this.Controls.Add(this.MyLabelPosition);
             this.Controls.Add(this.MyLabelFilename);
@@ -162,7 +162,7 @@
             this.Controls.Add(this.MyTextBox);
             this.Controls.Add(this.MyPictureBox_2);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

@@ -57,6 +57,19 @@ namespace WindowsFormsApp10
             InitializeComponent();
         }
 
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {
+            const string message = "Are you sure that you would like to close the programm? \r\nMake sure you saved all data by pressing 'w'! ";
+            const string caption = "Close Program";
+            var result = MessageBox.Show(message, caption,
+                                         MessageBoxButtons.YesNo,
+                                         MessageBoxIcon.Question);
+
+            e.Cancel = (result == DialogResult.No);
+        }
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
             MyTextBox.Visible = false;
