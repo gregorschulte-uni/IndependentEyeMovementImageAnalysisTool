@@ -268,6 +268,11 @@ namespace WindowsFormsApp10
 
                             score = new int[files.Length];
 
+                            for (int i = 0; i < score.Length; i++)
+                                {
+                                    score[i] = -1;
+                                }
+
                             MyLabelScore.Text = score[MyPosition].ToString();
 
                             MyLabelFilename.Text = Path.GetFileNameWithoutExtension(files[MyPosition]);
@@ -459,7 +464,7 @@ namespace WindowsFormsApp10
 
         private void writeResults()
         {
-            if (score != null && !Array.Exists(score, element => element.Equals(0)))
+            if (score != null && !Array.Exists(score, element => element.Equals(-1)))
             {
                 string outfile = Path.GetFileNameWithoutExtension(files[0]).Substring(0, 5);
                 string outfolder = Path.GetDirectoryName(files[0]);
@@ -478,14 +483,14 @@ namespace WindowsFormsApp10
                 int x = 0;
                 for (int i = 0; i < score.Length - 1; i++)
                 {
-                    if (score[i] == 0)
+                    if (score[i] == -1)
                     {
                         x++;
                     }
                 }
 
                 Console.Beep();
-                MessageBox.Show(x.ToString()+ " Pictures have not been rated. First missing value is at index: "+ Array.IndexOf(score,0).ToString());
+                MessageBox.Show(x.ToString()+ " Pictures have not been rated. First missing value is at index: "+ Array.IndexOf(score,-1).ToString());
                 }
             }
         }
