@@ -205,6 +205,46 @@ namespace WindowsFormsApp10
                         else { Console.Beep(); }
                         break;
 
+                    case Keys.NumPad7:
+                        if (score != null)
+                        {
+                            score[MyPosition] = 7;
+                            MyLabelScore.Text = score[MyPosition].ToString();
+                            nextImage();
+                        }
+                        else { Console.Beep(); }
+                        break;
+
+                    case Keys.NumPad8:
+                        if (score != null)
+                        {
+                            score[MyPosition] = 8;
+                            MyLabelScore.Text = score[MyPosition].ToString();
+                            nextImage();
+                        }
+                        else { Console.Beep(); }
+                        break;
+
+                    case Keys.NumPad9:
+                        if (score != null)
+                        {
+                            score[MyPosition] = 9;
+                            MyLabelScore.Text = score[MyPosition].ToString();
+                            nextImage();
+                        }
+                        else { Console.Beep(); }
+                        break;
+
+                    case Keys.NumPad0:
+                        if (score != null)
+                        {
+                            score[MyPosition] = 0;
+                            MyLabelScore.Text = score[MyPosition].ToString();
+                            nextImage();
+                        }
+                        else { Console.Beep(); }
+                        break;
+
                     case Keys.O:
                         if (MyFolderBrowserDialog.ShowDialog() == DialogResult.OK)
                         {
